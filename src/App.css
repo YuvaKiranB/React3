@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+
+.main {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4faff;
+  width: 100vw;
+}
+
+.h1 {
+  color: #171f46;
+  font-size: 45px;
+  text-align: center;
+  font-family: roboto;
+}
+
+.p1 {
+  color: #64748b;
+  font-family: roboto;
+  font-size: 18px;
+  text-align: center;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 20px;
+  align-self: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+}
+
+@media (min-width: 992px) {
+  .h1 {
+    font-size: 40px;
+  }
+
+  .p1 {
+    font-size: 20px;
+  }
+
+  .main {
+    padding: 100px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65vw;
+  }
+}
